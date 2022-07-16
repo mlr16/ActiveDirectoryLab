@@ -9,7 +9,7 @@ This Lab consists of walkthrough....
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Oracel Virtual Box</b> 
+- <b>Oracle Virtual Box</b> 
 - <b>Powershell</b>
 
 <h2>Environments Used </h2>
