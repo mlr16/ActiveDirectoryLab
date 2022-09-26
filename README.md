@@ -185,13 +185,58 @@ Right click "dc.mydomain.com" and toggle to  and click "authorize" to activate s
 <<br />
 <br />
 
-<h2>Creating and Adding CLient Using Powershell: </h2>
-
+<h2>Creating and Adding Client Using Powershell: </h2>
+<p align="center">
+Open Powershell ISE and right click to go more. Then run as admin:  <br/>
+<img src="hhttps://i.imgur.com/moUdDUL.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />
+This is the script that generates multiple username credentials:  <br/>
+<img src="https://i.imgur.com/isFhT8W.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />                                                                                                 
+Type the command below and it will allow the script to run:  <br/>
+<img src="https://i.imgur.com/vK7FZT7.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />                                                                                                
+ 
+ <h2>Create Windows 10 Virtual Machine (Client): </h2>
+<p align="center">
+Open Virtual Box. Follow the samessteps from "Program walkthrough in isntalling Windows 10 Client  (download ISO image of Windows 10 before creating VM) <br/>
+<img src="https://i.imgur.com/jnOWvfW.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />
+Windows will start downloading:  <br/>
+<img src="https://i.imgur.com/Kv877Pk.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />
+ After installation, type user in the blank space (use windows 10 pro if prompted to ask which version to use) and no password needed <br/>
+<img src="https://i.imgur.com/QC1INZr.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br />
+ After logging in, Go to command line by clicking windows icon and typing cmd:  <br/>
+<img src="https://i.imgur.com/nTt64B0.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br /> 
+  Type the following command (in the red box) and it will show i the client can connect to the network. Pay attention to the Default Gateway and DNS. There should be assigned IP address on both. Use the following command to ping external and internal network to make sure CLIENT connects. <br/>
+<img src="https://i.imgur.com/rhEWXIY.png height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br /> 
+Go to the windows icon and right click this. Click on system and scroll down to find Rename (Advanced): <br/>
+<img src="https://i.imgur.com/1ch40r2.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br /> 
+Typed the following information from the screenshot. After, click OK and it will promopt to restart. CLick Restart (If no prompt, manually navigate to restart menu). This will help restart computer configurations to be added to the AD DS <br/>
+<img src="https://i.imgur.com/6GoSJB4.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br /> 
+Navigate back to the AD DS VM to check if Computer (Client2) is added in the Domain. Go to tools to check on DHCP and Active Directory Users and Computers: <br/>
+<img src="https://i.imgur.com/QfecDSy.png" height="80%" width="80%" alt="Active Directory Homelab"/>
+<br />
+<br /> 
+                                                                                                  
+</h2>THIS CONCLUDES THE LAB INSTRUCTIONS. </h2>
                                                                                                  
-                                                                                                 
-                                                                                                 
-                                                                                                 
-     </p>
 <!--
  ```diff
 - text in red
