@@ -24,7 +24,7 @@ Install Window Server in Virtualbox : <br/>
 <img src="https://i.imgur.com/pd3p9su.png" height="80%" width="80%" alt="Active Directory Homelab"/>
 <br />
 <br />
-After installation, Create Log in credintialsk:  <br/>
+After installation, Create Log in credintials:  <br/>
 <img src="https://i.imgur.com/V1FfuQu.png" height="80%" width="80%" alt="Active Directory Homelab"/>
 <br />
 <br />
