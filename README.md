@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](URL)
 
 <h2>Description</h2>
-This Lab consists of walkthrough on Server 2019 and Microsoft Windows 10 in a virtual machine (Virtualbox). The steps will also demonstate installation of DCHP and Internal routing to enable client to access internet even when in Private Virtual Network. 
+This Lab consists of a walkthrough on Server 2019 and Microsoft Windows 10 in a virtual machine (Virtualbox). The steps will also demonstrate installation of DCHP and Internal routing to enable clients to access internet even when in a Private Virtual Network. 
 <br />
 
 
