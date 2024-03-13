@@ -236,6 +236,8 @@ Navigate back to the AD DS VM to check if Computer (Client2) is added in the Dom
 <br /> 
                                                                                                   
 </h2>THIS CONCLUDES THE LAB INSTRUCTIONS. </h2>
+
+credits to: Jason Madakor video demonstration where I base my understanding of this subject.  
                                                                                                  
 <!--
  ```diff
